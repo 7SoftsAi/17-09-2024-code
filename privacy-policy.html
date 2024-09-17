@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Life insurance Carporation</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+  <style>
+    .container1 {
+      background-color: #fff;
+      padding: 20px 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+      margin: 20px;
+  }
+
+  h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #333;
+      text-align: center;
+  }
+
+  .section3 h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #007bff;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+  }
+
+  .section3 p {
+      font-size: 1em;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 15px;
+  }
+
+  .section3 p strong {
+      color: #333;
+      font-weight: 600;
+  }
+
+  @media (max-width: 600px) {
+      .container {
+          padding: 15px 20px;
+      }
+
+      h1 {
+          font-size: 1.5em;
+      }
+
+      .section3 h2 {
+          font-size: 1.2em;
+      }
+
+      .section3 p {
+          font-size: 0.95em;
+      }
+  }
+
+</style>
+  <!-- =======================================================
+  * Template Name: Impact
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <style>
+         body {
+             margin: 0;
+             font-family: Arial, sans-serif;
+             background-color: #f4f4f4;
+         }
+ 
+         .pra-header-container {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             padding: 15px 30px;
+             background: linear-gradient(90deg, #1e3c72, #2a5298); /* Updated gradient background */
+             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+             color: #fff;
+         }
+ 
+         .in-sv-header-top-content {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             width: 100%;
+             padding: 5px 10px;
+         }
+ 
+         .in-sv-header-cta {
+             display: flex;
+             align-items: center;
+         }
+ 
+         .in-sv-header-cta ul {
+             list-style: none;
+             padding: 0;
+             margin: 0;
+             display: flex;
+             gap: 20px;
+             align-items: center;
+         }
+ 
+         .in-sv-header-cta ul li {
+             display: flex;
+             align-items: center;
+         }
+ 
+         .in-sv-header-cta ul li a {
+             display: block;
+             font-size: 20px;
+             color: #fff;
+             text-decoration: none; /* No underline */
+             transition: transform 0.3s ease;
+         }
+ 
+         .in-sv-header-cta ul li a:hover {
+             transform: scale(1.2);
+         }
+ 
+         /* Icon Colors */
+         .fa-envelope {
+             color: #ea4335; /* Gmail Red */
+         }
+ 
+         .fa-globe {
+             color: #ff6f00; /* JustDial Orange */
+         }
+ 
+         .fa-google-drive {
+             color: #0f9d58; /* Google Drive Green */
+         }
+ 
+         .fa-store {
+             color: #4285f4; /* Google Store Blue */
+         }
+ 
+         .fa-briefcase {
+             color: #fbbc05; /* Google Business Yellow */
+         }
+ 
+         .fa-map-marker-alt {
+             color: #ea4335; /* Google Maps Red */
+         }
+ 
+         .fa-phone {
+             color: #34b7f1; /* Phone Blue */
+         }
+ 
+         .cta-buttons {
+             display: flex;
+             gap: 15px;
+             align-items: center;
+         }
+ 
+         .cta-buttons a {
+             background-color: rgba(255, 255, 255, 0.8);
+             color: #007bff;
+             padding: 8px 16px;
+             border-radius: 20px;
+             text-decoration: none;
+             font-size: 14px;
+             font-weight: bold;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             transition: all 0.3s ease;
+         }
+ 
+         .cta-buttons a:nth-child(2) {
+             background-color: rgba(255, 255, 255, 0.8);
+             color: #28a745;
+         }
+ 
+         .cta-buttons a:hover {
+             background-color: #fff;
+             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+         }
+ 
+         @media (max-width: 768px) {
+             .in-sv-header-cta ul {
+                 gap: 15px;
+             }
+ 
+             .cta-buttons a {
+                 font-size: 12px;
+                 padding: 6px 12px;
+             }
+         }
+ 
+         @media (max-width: 480px) {
+             .in-sv-header-top-content {
+                 flex-direction: column;
+                 align-items: flex-start;
+             }
+ 
+             .in-sv-header-cta {
+                 margin-bottom: 15px;
+             }
+ 
+             .cta-buttons {
+                 display: none; /* Hide buttons in mobile view */
+             }
+         }
+         .nav-link.active {
+   color: #3498db; /* Change to your active link color */
+   font-weight: bold;
+ }
+ 
+     </style>
+ 
+     <div id="pra-header" class="pra-header-container" style="height: 60px;">
+         <div class="in-sv-header-top-content">
+             <!-- Left Side: Icons -->
+             <div class="in-sv-header-cta">
+                 <ul>
+                     <li>
+                         <a href="mailto:info@example.com">
+                             <i class="fa-solid fa-envelope"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="https://www.justdial.com/" target="_blank">
+                             <i class="fa-solid fa-globe"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="https://drive.google.com/" target="_blank">
+                             <i class="fa-brands fa-google-drive"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="https://www.indiamart.com/" target="_blank">
+                             <i class="fa-solid fa-store"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="https://www.google.com/business/" target="_blank">
+                             <i class="fa-solid fa-briefcase"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="https://www.google.com/maps/search/?api=1&query=Hare+Krishna%2C+Vizag%2C+Andhra+Pradesh+-530001+Visakhapatnam" target="_blank">
+                             <i class="fa-solid fa-map-marker-alt"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="tel:002343474383">
+                             <i class="fa-solid fa-phone"></i>
+                         </a>
+                     </li>
+                 </ul>
+             </div>
+ 
+             <!-- Right Side: Buttons -->
+             <div class="cta-buttons">
+                 <a href="#">
+                     Sign Up
+                 </a>
+                 <a href="#">
+                     Login
+                 </a>
+             </div>
+         </div>
+     </div><!-- End Top Bar -->
+ 
+     <div class="branding d-flex align-items-cente">
+ 
+       <div class="container position-relative d-flex align-items-center justify-content-between">
+         <a href="index.html" class="logo d-flex align-items-center">
+           <!-- Uncomment the line below if you also wish to use an image logo -->
+           <!-- <img src="assets/img/logo.png" alt=""> -->
+           <h1 class="sitename">Life Insurance</h1>
+           <span>.</span>
+         </a>
+ 
+         <nav id="navmenu" class="navmenu">
+           <ul>
+             <li><a href="index.html" class="nav-link" id="home-link">Home</a></li>
+             <!-- <li><a href="#about" class="nav-link" id="about-link">About</a></li>
+             <li><a href="#services" class="nav-link" id="services-link">Services</a></li>
+             <li><a href="#portfolio" class="nav-link" id="portfolio-link">Gallery</a></li>
+             <li><a href="#calculators" class="nav-link" id="calculators-link">Calculators</a></li>
+             <li><a href="#contact" class="nav-link" id="contact-link">Contact</a></li> -->
+           </ul>
+           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+         </nav>
+         
+ 
+       </div>
+ 
+     </div>
+ 
+   </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section accent-background">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-5 justify-content-between">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h2><span>Welcome to </span><span class="accent">LIC</span></h2>
+            <p>Join LIC today and help families secure their future with trusted insurance solutions. As an LIC agent, you can build a rewarding career while making a difference in people’s lives.</p>
+            <!-- <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div> -->
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2">
+            <img src="assets/img/hero-img.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+   
+
+    </section><!-- /Hero Section -->
+
+
+
+       <!-- start section -->  
+       <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="section3">
+            <h2>1. Introduction</h2>
+            <p>We are committed to protecting your privacy. This Privacy Policy outlines how we handle your personal information to protect your privacy.</p>
+        </div>
+        <div class="section3">
+            <h2>2. Information Collection</h2>
+            <p><strong>Personal Information:</strong> We may collect personal information such as your name, email address, phone number, and other contact details.</p>
+            <p><strong>Usage Data:</strong> Information about how you use our website, products, and services.</p>
+            <p><strong>Cookies:</strong> Our website may use cookies to enhance your user experience.</p>
+        </div>
+        <div class="section3">
+            <h2>3. Use of Information</h2>
+            <p><strong>Service Delivery:</strong> To provide and manage our services.</p>
+            <p><strong>Communication:</strong> To communicate with you, including responding to inquiries and sending updates.</p>
+            <p><strong>Personalization:</strong> To personalize your experience on our website.</p>
+        </div>
+        <div class="section3">
+            <h2>4. Information Sharing</h2>
+            <p><strong>Third-Party Services:</strong> We may share your information with third-party service providers who assist us in delivering our services.</p>
+            <p><strong>Legal Requirements:</strong> We may disclose your information to comply with legal obligations or protect our rights.</p>
+        </div>
+        <div class="section3">
+            <h2>5. Data Security</h2>
+            <p><strong>Protection Measures:</strong> We implement security measures to protect your personal information from unauthorized access, alteration, and disclosure.</p>
+            <p><strong>Data Retention:</strong> We retain your information only as long as necessary for the purposes outlined in this policy.</p>
+        </div>
+        <div class="section3">
+            <h2>6. Your Rights</h2>
+            <p><strong>Access and Correction:</strong> You have the right to access and correct your personal information.</p>
+            <p><strong>Opt-Out:</strong> You may opt out of receiving marketing communications from us at any time.</p>
+        </div>
+        <div class="section3">
+            <h2>7. Cookies</h2>
+            <p><strong>Usage:</strong> We use cookies to improve your experience on our website.</p>
+            <p><strong>Control:</strong> You can control the use of cookies through your browser settings.</p>
+        </div>
+        <div class="section3">
+            <h2>8. Changes to this Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+        </div>
+        <div class="section3">
+            <h2>9. Contact Us</h2>
+            <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+            <p>Email: info@example.com</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
+    </div>
+    
+
+
+
+    <footer id="footer" class="footer accent-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">LIC Insurance</span>
+            </a>
+            <p>Life Insurance Corporation of India (LIC) has been a trusted name in insurance for decades, offering a wide range of insurance products designed to provide financial security for individuals and families.</p>
+            <div class="social-links d-flex mt-4">
+              <a href="https://x.com/"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+  
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <!-- <li><a href="privacy-policy.html">Privacy policy</a></li> -->
+            </ul>
+          </div>
+  
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Company</h4>
+            <ul>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="terms-condition.html">Terms and Services</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Whatsapp CRM</a></li>
+              <li><a href="https://deltateam.in/">Deltateam.in</a></li>
+              <!-- <li><a href="#">Withdrown Plans</a></li> -->
+            </ul>
+          </div>
+  
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>Bengalore road Street</p>
+            <p>Electronic City, Bengalore</p>
+            <p>India</p>
+            <p class="mt-4"><strong>Phone:</strong> <span>+91 123 456 789</span></p>
+            <p><strong>Email:</strong> <span>user@gmail.com</span></p>
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="container copyright text-center mt-4">
+        <p>©2024 <span>Copyright</span> <strong class="px-1 sitename"><a href="https://deltateam.in/">Deltateam.in</a></strong> <span>All Rights Reserved</span> 
+         
+        </p>
+        
+        <!-- <div class="credits">
+        </div> -->
+      </div>
+  
+    </footer>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault(); // Prevent form from submitting in the traditional way
+
+        var name = document.querySelector('input[name="name"]').value;
+        var email = document.querySelector('input[name="email"]').value;
+        var subject = document.querySelector('input[name="subject"]').value;
+        var message = document.querySelector('textarea[name="message"]').value;
+
+        var whatsappMessage = `Name: ${name}%0AEmail: ${email}%0ASubject: ${subject}%0AMessage: ${message}`;
+        var whatsappURL = `https://wa.me/yourwhatsappnumber?text=${whatsappMessage}`;
+
+        window.open(whatsappURL, '_blank');
+    });
+</script>
+
+
+  <!-- calcuators javascript files ===================== -->
+  <script>
+    function calculateRD() {
+      // Get input values
+      let monthlyDeposit = parseFloat(document.getElementById('monthly-deposit').value);
+      let interestRate = parseFloat(document.getElementById('interest-rate-rd').value) / 100;
+      let tenureMonths = parseInt(document.getElementById('loan-period-rd').value);
+      let compoundingFrequency = document.getElementById('compounding-frequency-rd').value;
+  
+      // Convert tenure from months to years
+      let tenureYears = tenureMonths / 12;
+  
+      // Define compounding frequency
+      let n;
+      switch (compoundingFrequency) {
+        case 'annually':
+          n = 1;
+          break;
+        case 'quarterly':
+          n = 4;
+          break;
+        case 'monthly':
+          n = 12;
+          break;
+        default:
+          n = 1;
+      }
+  
+      // Calculate Maturity Amount using RD formula
+      // M = P * (1 + r/n)^(nt) - P
+      let r = interestRate / n;
+      let maturityAmount = monthlyDeposit * (Math.pow((1 + r), n * tenureYears) - 1) / (1 - Math.pow((1 + r), -1 / n));
+      let totalInvestment = monthlyDeposit * tenureMonths;
+      let interestEarned = maturityAmount - totalInvestment;
+  
+      // Display the result
+      document.getElementById('result-rd').innerText = `Maturity Amount: ₹${maturityAmount.toFixed(2)}\nInterest Earned: ₹${interestEarned.toFixed(2)}`;
+    }
+  
+    function clearFields(numFields) {
+      document.getElementById('monthly-deposit').value = 1000;
+      document.getElementById('interest-rate-rd').value = 10;
+      document.getElementById('loan-period-rd').value = 12;
+      document.getElementById('compounding-frequency-rd').selectedIndex = 0;
+      document.getElementById('result-rd').innerText = '';
+    }
+  </script>
+  
+  <script>
+    function calculateFutureValue() {
+      // Get input values
+      let presentValue = parseFloat(document.getElementById('present-amount-future').value);
+      let interestRate = parseFloat(document.getElementById('interest-rate-future').value) / 100;
+      let years = parseInt(document.getElementById('loan-period-future').value);
+      let compoundingMode = document.getElementById('rest-option-future').value;
+  
+      // Define compounding frequency
+      let n;
+      switch (compoundingMode) {
+        case 'annually':
+        case 'yearly':
+          n = 1;
+          break;
+        case 'half-yearly':
+          n = 2;
+          break;
+        case 'quarterly':
+          n = 4;
+          break;
+        case 'monthly':
+          n = 12;
+          break;
+        case '15-days':
+          n = 24;
+          break;
+        case '7-days':
+          n = 52;
+          break;
+        case 'daily':
+          n = 365;
+          break;
+        default:
+          n = 1;
+      }
+  
+      // Calculate Future Value
+      let futureValue = presentValue * Math.pow((1 + (interestRate / n)), n * years);
+  
+      // Display the result
+      document.getElementById('result-future').innerText = `Future Value: ₹${futureValue.toFixed(2)}`;
+    }
+  
+    function clearFields(numFields) {
+      document.getElementById('present-amount-future').value = 0;
+      document.getElementById('interest-rate-future').value = 10;
+      document.getElementById('loan-period-future').value = 10;
+      document.getElementById('rest-option-future').selectedIndex = 0;
+      document.getElementById('result-future').innerText = '';
+    }
+  </script>
+  <script>
+    function calculatePresentValue() {
+      // Get input values
+      let interestRate = parseFloat(document.getElementById('interest-rate-3').value) / 100;
+      let futureAmount = parseFloat(document.getElementById('future-amount').value);
+      let years = parseInt(document.getElementById('loan-period-present').value);
+      let compoundingMode = document.getElementById('rest-option-present').value;
+  
+      // Define compounding frequency
+      let n;
+      switch (compoundingMode) {
+        case 'annually':
+        case 'yearly':
+          n = 1;
+          break;
+        case 'half-yearly':
+          n = 2;
+          break;
+        case 'quarterly':
+          n = 4;
+          break;
+        case 'monthly':
+          n = 12;
+          break;
+        case '15-days':
+          n = 24;
+          break;
+        case '7-days':
+          n = 52;
+          break;
+        case 'daily':
+          n = 365;
+          break;
+        default:
+          n = 1;
+      }
+  
+      // Calculate Present Value
+      let presentValue = futureAmount / Math.pow((1 + (interestRate / n)), n * years);
+  
+      // Display the result
+      document.getElementById('result-present').innerText = `Present Value: ₹${presentValue.toFixed(2)}`;
+    }
+  
+    function clearFields(numFields) {
+      document.getElementById('interest-rate-3').value = 10;
+      document.getElementById('future-amount').value = 0;
+      document.getElementById('loan-period-present').value = 10;
+      document.getElementById('rest-option-present').selectedIndex = 0;
+      document.getElementById('result-present').innerText = '';
+    }
+  </script>
+  
+  <script>
+    function calculateFD() {
+      // Get input values
+      let principalAmount = parseFloat(document.getElementById('principal-amount').value);
+      let interestRate = parseFloat(document.getElementById('interest-rate-2').value) / 100;
+      let loanPeriodMonths = parseInt(document.getElementById('loan-period-2').value);
+      let compoundingOption = document.getElementById('compounding-option').value;
+  
+      // Convert loan period from months to years
+      let loanPeriodYears = loanPeriodMonths / 12;
+  
+      // Define compounding frequency
+      let n;
+      switch (compoundingOption) {
+        case 'annually':
+        case 'yearly':
+          n = 1;
+          break;
+        case 'half-yearly':
+          n = 2;
+          break;
+        case 'quarterly':
+          n = 4;
+          break;
+        case 'monthly':
+          n = 12;
+          break;
+        case '15-days':
+          n = 24;
+          break;
+        case '7-days':
+          n = 52;
+          break;
+        case 'daily':
+          n = 365;
+          break;
+        default:
+          n = 1;
+      }
+  
+      // Calculate Maturity Amount using Compound Interest formula
+      let maturityAmount = principalAmount * Math.pow((1 + (interestRate / n)), n * loanPeriodYears);
+      let interestEarned = maturityAmount - principalAmount;
+  
+      // Display the result
+      document.getElementById('result-2').innerText = `Maturity Amount: ₹${maturityAmount.toFixed(2)}\nInterest Earned: ₹${interestEarned.toFixed(2)}`;
+    }
+  
+    function clearFields(numFields) {
+      document.getElementById('principal-amount').value = 100000;
+      document.getElementById('interest-rate-2').value = 10;
+      document.getElementById('loan-period-2').value = 12;
+      document.getElementById('compounding-option').selectedIndex = 0;
+      document.getElementById('result-2').innerText = '';
+    }
+  </script>
+  
+  <script>
+    function toggleSocialLinks() {
+      var socialLinks = document.querySelector('.social-links');
+      socialLinks.style.display = (socialLinks.style.display === 'none' ? 'flex' : 'none');
+    }
+  </script>
+  <script>
+    function clearFields(calculatorType) {
+  switch (calculatorType) {
+    case 1: // Recurring Deposit Calculator
+      document.getElementById('monthly-deposit').value = 1000;
+      document.getElementById('interest-rate-rd').value = 10;
+      document.getElementById('loan-period-rd').value = 12;
+      document.getElementById('compounding-frequency-rd').selectedIndex = 0;
+      document.getElementById('result-rd').innerText = '';
+      break;
+    case 2: // Fixed Deposit Calculator
+      document.getElementById('principal-amount').value = 100000;
+      document.getElementById('interest-rate-2').value = 10;
+      document.getElementById('loan-period-2').value = 12;
+      document.getElementById('compounding-option').selectedIndex = 0;
+      document.getElementById('result-2').innerText = '';
+      break;
+    case 3: // Future Value Calculator
+      document.getElementById('present-amount-future').value = 0;
+      document.getElementById('interest-rate-future').value = 10;
+      document.getElementById('loan-period-future').value = 10;
+      document.getElementById('rest-option-future').selectedIndex = 0;
+      document.getElementById('result-future').innerText = '';
+      break;
+    case 4: // Present Value Calculator
+      document.getElementById('interest-rate-3').value = 10;
+      document.getElementById('future-amount').value = 0;
+      document.getElementById('loan-period-present').value = 10;
+      document.getElementById('rest-option-present').selectedIndex = 0;
+      document.getElementById('result-present').innerText = '';
+      break;
+    default:
+      console.error('Unknown calculator type');
+  }
+  }
+  
+  
+  </script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+<div class="floating-icons">
+  <a href="https://wa.me/yourphonenumber" target="_blank" class="whatsapp">
+      <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://www.facebook.com/yourprofile" target="_blank" class="facebook">
+      <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.instagram.com/yourprofile" target="_blank" class="instagram">
+      <i class="fab fa-instagram"></i>
+  </a>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+      .floating-icons {
+      position: fixed;
+      right: 20px;
+      top: 70%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      z-index: 1000;
+  }
+  
+  .floating-icons a {
+      display: block;
+      width: 50px;
+      height: 50px;
+      color: #fff;
+      text-align: center;
+      line-height: 50px;
+      border-radius: 50%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .floating-icons .whatsapp {
+      background-color: #25D366; /* WhatsApp color */
+  }
+  
+  .floating-icons .facebook {
+      background-color: #3b5998; /* Facebook color */
+  }
+  
+  .floating-icons .instagram {
+      background-color: #E4405F; /* Instagram color */
+  }
+  
+  .floating-icons a:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+      .floating-icons a {
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+      }
+  }
+  
+  @media (max-width: 480px) {
+      .floating-icons a {
+          width: 35px;
+          height: 35px;
+          line-height: 35px;
+      }
+  }
+  
+  </style> 
+</div>
+</html>
